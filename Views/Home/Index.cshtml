@@ -19,9 +19,9 @@
                <span>Nailed It</span>
             </h2>
             <ul>
-             <li><a href="Url.Action("ContactUs","Home")">Home</a></li>
-             <li><a href="Quizform.cshtml">Contact</a></li>
-             <li><a href="About.html">About Us</a></li>
+             <li><a href="@Url.Action("ContactUs","Home")">Home</a></li>
+             <li><a href="@Url.Action("","Home")">Contact</a></li>
+             <li><a href="#second">About Us</a></li>
 
         </ul>
         </nav>
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-<div class="service">
+<div class="service" id="second">
     <div class="title">
         <h2>Our Services</h2>
     </div>
