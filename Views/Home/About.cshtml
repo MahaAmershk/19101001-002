@@ -4,21 +4,53 @@
 @{
 }
 <head>
-      <link rel="stylesheet" type="text/css" href="/css/StyleSheet.css">
+
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+       <nav id="n">
+            <h2 class="logo">
+              Nailed It
+            </h2>
+            <ul>
+           <li><a href="@Url.Action("Index","Home")">Home</a></li>
+           <li><a href="@Url.Action("About","Home")">About Us</a></li>
+            <li><a href="@Url.Action("Services","Home")">Our Services</a></li>
+             <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
+           
+             
+
+        </ul>
+        </nav>
 <section class="About">
 
     <div class="main">
-        <img src="/img/img4.jpeg" alt="About us">
+        <img id="img4" src="/img/img4.jpeg" alt="About us">
 
     <div class="About-text">
         <h2>About Me </h2>
-        <h5> Developer <span>and Designer</span></h5>
-        <p>I am enthusiastically eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding and training in Development and designing. Motivated to learn, grow and excel in your organization. </p>
-        <button type="button">Let's Talk</button>
+        <h5> Your Nail's Bestfriend😍</h5>
+        <p><b>At the Nailed it, we have confidence in excellence with a heart. We have made a salon that offers the most noteworthy quality hair benefits in a setting that is more advantageous for the earth, our visitors, and our staff.
+
+The Nailed it is planned and fabricated essentially with reused materials: the floor is made of recovered wood from a nearby grain lift – protecting and displaying its common surface – and the vast majority of the installations and furniture are renovated or unique vintage pieces.</b>
+
+
 
     </div>
 </div>
 </section>
+ <footer>
+    
+      <div class="social">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+         <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-solid fa-at"></i></a>
+      </div>
+      <p class="end">Copyright By Nailed It</p>
+  </footer>
 </body>

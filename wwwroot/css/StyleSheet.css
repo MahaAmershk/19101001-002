@@ -72,7 +72,7 @@ nav ul li {
     position: absolute;
     top: 18%;
     left: 8%;
-    transform: translateY(-50);
+   
 }
 
 h1 {
@@ -98,17 +98,20 @@ h4 {
 .About {
     width: 100%;
     padding: 100px 0px;
-    background-color: lightpink;
+    background-image: url('/img/Hands.jpg');
+    background-size: cover;
 }
 
     .About img {
-        height: auto;
+        padding-top:2%;
+        height: 450px;
         width: 430px;
         border-radius: 30px;
     }
 
 .About-text {
-    width: 550px;
+    width:450px;
+   
 }
 
 .main {
@@ -136,7 +139,7 @@ h4 {
 }
 
 .About-text p {
-    color: cadetblue;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -153,12 +156,12 @@ button {
     border-radius: 30px;
     transition: .4s;
 }
-/*button:hover{
+button:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
 
-}*/
+}
 .service {
     background-image: url('/img/Hands.jpg');
     background-size: cover;
@@ -183,7 +186,7 @@ button {
 }
 
 .Cards {
-    height: 365px;
+    height: 342px;
     width: 335px;
     padding-left: 20px;
     padding-right: 20px;
@@ -195,23 +198,39 @@ button {
     overflow: hidden;
     text-align: center;
 }
-#img1 {
-    background-image: url('/img/Img1.jpeg');
-    background-size:cover;
+.Card {
     height: 365px;
     width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 23px;
+    margin: 15px;
+    margin-left: 38px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#img1 {
+    background-image: url('/img/Img1.jpeg');
+    background-size: cover;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
 }
 #img2 {
     background-image: url('/img/img2.jpeg');
     background-size: cover;
     height: 365px;
     width: 335px;
+    border-radius: 20px;
 }
 #img3 {
     background-image: url('/img/img3.jpeg');
     background-size: cover;
     height: 365px;
     width: 335px;
+    border-radius: 20px;
 }
 
     
@@ -350,4 +369,15 @@ form h4 {
     color: deeppink;
     border: 1px solid white;
     background-color: white;
+}
+#Pra a {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 100px;
+    transition: transform .4s;
 }
