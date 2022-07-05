@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif sans-serif;
     box-sizing: border-box;
-  
+ 
 }
 
 .hero {
@@ -40,7 +40,7 @@ nav ul li {
 }
 
     nav ul li a {
-        color: black;
+        color: white;
         text-decoration: none;
         font-weight: bold;
         text-transform: capitalize;
@@ -68,13 +68,13 @@ nav ul li {
 
 .content {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 8%;
     transform: translateY(-50);
 }
 
 h1 {
-    color: white;
+    color: Black;
     margin: 20px 0px 20px;
     font-size: 70px;
 }
@@ -92,35 +92,6 @@ h4 {
     font-size: 20px;
 }
 
-.newslatter form {
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-    top: 20%;
-}
-
-    .newslatter form input:first-child {
-        display: inline-block;
-        width: 100%;
-        padding: 14px 130px 14px 15px;
-        border: 2px solid brown;
-        outline: none;
-        border-radius: 30px;
-    }
-
-    .newslatter form input:last-child {
-        position: absolute;
-        display: inline-block;
-        outline: none;
-        border: none;
-        padding: 10px 30px;
-        border-radius: 30px;
-        background-color: #f9004d;
-        color: white;
-        box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
-        top: 6px;
-        right: 6px;
-    }
 
 .About {
     width: 100%;
@@ -210,13 +181,32 @@ button {
 .Cards {
     height: 365px;
     width: 335px;
-    padding: 20px 35px;
-    background: lightblue;
+
+   background-color:hotpink;
     border-radius: 20px;
     margin: 15px;
+    margin-left:19px;
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+#img1 {
+    background-image: url('/img/Img1.jpeg');
+    background-size:cover;
+    height: 365px;
+    width: 335px;
+}
+#img2 {
+    background-image: url('/img/img2.jpeg');
+    background-size: cover;
+    height: 365px;
+    width: 335px;
+}
+#img3 {
+    background-image: url('/img/img3.jpeg');
+    background-size: cover;
+    height: 365px;
+    width: 335px;
 }
 
     .Cards i {
@@ -233,12 +223,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-.pra p {
-    color: cadetblue;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-}
+
 
 .Cards .button {
     background-color: #f9004d;
@@ -294,7 +279,7 @@ h5 {
 footer {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 150px;
     background: Pink;
     display: flex;
     flex-direction: column;
@@ -303,7 +288,7 @@ footer {
 }
 
     footer p:nth-child(1) {
-        font-size: 30px;
+        font-size: 20px;
         color: white;
         margin-bottom: 20px;
         font-weight: bold;
@@ -312,24 +297,25 @@ footer {
     footer p:nth-child(2) {
         color: white;
         font-size: 17px;
-        width: 500px;
+        width: 300px;
         text-align: center;
-        line-height: 26px;
+        line-height: 16px;
     }
 
 .social {
     display: flex;
+
 }
 
     .social a {
-        width: 45px;
-        height: 45px;
+        width: 25px;
+        height: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
         background: #f9004d;
         border-radius: 50%;
-        margin: 22px 10px;
+        margin: 21px 10px;
         color: white;
         text-decoration: none;
         font-size: 20px;
@@ -345,4 +331,49 @@ footer {
     color: #f9004d;
     bottom: 35px;
     font-size: 14px;
+}
+#em{
+    margin-left:28px;
+    margin-top:80px;
+}
+.me {
+    margin-left: 70px;
+}
+form {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    padding-top: 20px;
+    background-color:lightpink;
+    border-radius:10%;
+}
+form h3{
+    color:black;
+    border:1px solid white;
+    background-color:white;
+}
+.button_1 {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top:100px;
+    transition: transform .4s;
+}
+    .button_1:hover{
+        background-color:transparent;
+        border:1px red solid;
+        color:black;
+    }
+    h3 {
+        color: white;
+    }
+form h4 {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
 }

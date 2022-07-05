@@ -6,28 +6,43 @@
 <head>
   
     <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/css/StyleSheet.css">
 </head>
-<body>
+<body class="hero">
     <center>
-    <h1 >Contact us!</h1>
+    <h3>Book Your Appointment!</h3>
     <form action="showdata" method="post">
+        <h3>Provide Info</h3>
         <label for="">First Name</label>
-        <input type="text" name="firstname" placeholder="Enter your first name" ><br>
+        <input type="text" name="firstname" class="em"  placeholder="Enter your first name" ><br>
         <label for="">Last Name</label>
-        <input type="text" name="secondname" placeholder="Enter your second name" ><br>
-        <label for="">Gender</label><br>
-        <label for="">Male</label>
-        <input type="radio" name="gender" id="">
-        <label for="">Female</label>
-        <input type="radio" name="gender" id="">
-        <select name="dropdown" id="">
-            <option value="Select" name="s">Select</option>
+        <input type="text" name="secondname" class="em"  placeholder="Enter your second name" ><br>
+         <label for="">Your Email </label>
+        <input type="text" name="email" id="me" placeholder="Enter your Email" ><br>
+        <label for="">Phone No</label>
+        <input type="text" name="Phn" class="em"  placeholder="Enter your Phone Numbers" ><br>
+       <select>
+           <option value="Select" name="s">Select Time</option>
+             <option value="5" name="s">05:00 pm</option>
+            <option value="6" name="s">06:00 pm</option>
+                <option value="7" name="s">07:00 pm</option>
+                    <option value="8" name="s">08:00 pm</option>
+                    <option value="9" name="s">09:00 pm</option>
+                <option value="10" name="s">10:00 pm</option>
+                  
+       </select>
+        <select name="dropdown" id="select">
+            <option value="Select" name="s">Select Service</option>
            <option value="Acrylic-Nails" name="s">Acrylic Nails</option>
             <option value="Gel-nails" name="s">Gel Nails</option>
             <option value="Manicure" name="s"> Manicure</option>
              <option value="pedicure" name="s"> Pedicure</option>
-        </select>
-     
+        </select><br />
+        
+   <button type="submit" class="button_1">Book Now</button>
+    <h4> Nailed it</h4>
+   
     </form>
+   
        </center>
 </body>
