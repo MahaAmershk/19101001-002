@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="json.json" />
     <Content Remove="Views\Home\Quizform.cshtml" />
   </ItemGroup>
 
