@@ -15,6 +15,7 @@
 
 nav {
     position:fixed;
+    top:0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,7 +160,9 @@ button {
 
 }*/
 .service {
-    background: Pink;
+    background-image: url('/img/Hands.jpg');
+    background-size: cover;
+    
     width: 100%;
     padding: 100px 0px;
 }
@@ -182,11 +185,12 @@ button {
 .Cards {
     height: 365px;
     width: 335px;
-
-   background-color:hotpink;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: pink;
     border-radius: 20px;
     margin: 15px;
-    margin-left:19px;
+    margin-left: 38px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -210,16 +214,10 @@ button {
     width: 335px;
 }
 
-    .Cards i {
-        font-size: 50px;
-        display: block;
-        text-align: center;
-        margin: 25px 0px;
-        color: #f9004d;
-    }
+    
 
 h5 {
-    color: rosybrown;
+    color: #f9004d;
     font-size: 23px;
     margin-bottom: 15px;
 }
@@ -232,6 +230,7 @@ h5 {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
+    margin-top:700px;
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
@@ -242,46 +241,15 @@ h5 {
         border: 2px solid #f9004d;
         cursor: pointer;
     }
+  
 
-.contact-me {
-    width: 100%;
-    height: 290px;
-    background: lightpink;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-    .contact-me p {
-        color: white;
-        font-size: 30px;
-        font-weight: bold;
-        margin-bottom: 25px;
-    }
-
-    .contact-me .button-two {
-        background-color: #f9004d;
-        color: white;
-        text-decoration: none;
-        border: 2px solid transparent;
-        font-weight: bold;
-        padding: 13px 30px;
-        border-radius: 30px;
-        transition: .4s;
-    }
-
-        .contact-me .button-two:hover {
-            background-color: transparent;
-            border: 2px solid #f9004d;
-            cursor: pointer;
-        }
 
 footer {
-    position: relative;
+    position: fixed;
+    bottom:0;
     width: 100%;
-    height: 150px;
-    background: Pink;
+    height: 100px;
+    background-color:plum;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,10 +273,11 @@ footer {
 
 .social {
     display: flex;
-
+    margin-top: 1%;
 }
 
     .social a {
+       
         width: 25px;
         height: 25px;
         display: flex;
@@ -321,6 +290,9 @@ footer {
         text-decoration: none;
         font-size: 20px;
     }
+    social a i{
+        color:white;
+    }
 
         .social a:hover {
             transform: scale(1.3);
@@ -328,9 +300,9 @@ footer {
         }
 
 .end {
-    position: absolute;
+    
     color: #f9004d;
-    bottom: 35px;
+    margin-bottom: 40px;
     font-size: 14px;
 }
 #em{
@@ -343,17 +315,18 @@ footer {
 form {
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid black;
-    height: 500px;
+    height: 450px;
     width: 500px;
-    padding-top: 20px;
+    padding-top: 27px;
+margin-top:8%;
     background-color:lightpink;
     border-radius:10%;
 }
-form h3{
-    color:black;
-    border:1px solid white;
-    background-color:white;
-}
+    form h3 {
+        color: white;
+        border: 1px solid white;
+        background-color: #f9004d;
+    }
 .button_1 {
     background-color: #f9004d;
     color: white;

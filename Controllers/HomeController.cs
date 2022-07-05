@@ -16,14 +16,19 @@ namespace Project_19101001_002.Controllers
         {
             return View();
         }
-        public IActionResult showdata(string firstname,string secondname,string email,string phn,string time, string dropdown)
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult showdata(string firstname,string secondname,string email,string phn,string dropdown_2, string dropdown)
         {
             ViewBag.MessageF = "First-Name:" + firstname;
             ViewBag.MessageS = "Second-Name:" + secondname;
             ViewBag.MessageG = "Email"+email;
             ViewBag.MessageD = "Phone Number:" + phn;
-            ViewBag.MessageT = "Time:" + time;
+          
             ViewBag.MessageSe = "Service selected:" + dropdown;
+            ViewBag.MessageT = "Time:" + dropdown_2;
 
 
             return View();

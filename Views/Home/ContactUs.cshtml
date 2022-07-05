@@ -10,9 +10,21 @@
 </head>
 <body class="hero">
     <center>
-    <h3>Book Your Appointment!</h3>
+        <nav id="n">
+            <h2 class="logo">
+              Nailed It
+            </h2>
+            <ul>
+             <li><a href="@Url.Action("ContactUs","Home")">Home</a></li>
+             <li><a href="@Url.Action("ContactUs","Home")">Contact</a></li>
+               <li><a href="@Url.Action("Services","Home")">Services</a></li>
+             <li><a href="#second">About Us</a></li>
+
+        </ul>
+        </nav>
+ 
     <form action="showdata" method="post">
-        <h3>Provide Info</h3>
+        <h3>Book Your Appointment</h3>
         <label for="">First Name</label>
         <input type="text" name="firstname" class="em"  placeholder="Enter your first name" ><br>
         <label for="">Last Name</label>
@@ -21,7 +33,7 @@
         <input type="text" name="email" id="me" placeholder="Enter your Email" ><br>
         <label for="">Phone No</label>
         <input type="text" name="Phn" class="em"  placeholder="Enter your Phone Numbers" ><br>
-       <select>
+       <select name="dropdown_2">
            <option value="Select" name="s">Select Time</option>
              <option value="5" name="s">05:00 pm</option>
             <option value="6" name="s">06:00 pm</option>
@@ -45,4 +57,14 @@
     </form>
    
        </center>
+        <footer>
+      
+      <div class="social">
+          <a href="">F</a>
+          <a href="">I</a>
+          <a href="">U</a>
+      </div>
+      <p class="end">Copyright By Nailed It</p>
+  </footer>
 </body>
+
