@@ -12,6 +12,10 @@ namespace Project_19101001_002.Controllers
         {
             return View();
         }
+        public IActionResult Services()
+        {
+            return View();
+        }
         public IActionResult showdata(string firstname,string secondname,string email,string phn,string time, string dropdown)
         {
             ViewBag.MessageF = "First-Name:" + firstname;
