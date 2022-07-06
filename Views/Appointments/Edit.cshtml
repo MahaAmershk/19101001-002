@@ -1,0 +1,68 @@
+﻿@model Project_19101001_002.Models.Appointment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<h4>Appointment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Firstname" class="control-label"></label>
+                <input asp-for="Firstname" class="form-control" />
+                <span asp-validation-for="Firstname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Secondname" class="control-label"></label>
+                <input asp-for="Secondname" class="form-control" />
+                <span asp-validation-for="Secondname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phn" class="control-label"></label>
+                <input asp-for="Phn" class="form-control" />
+                <span asp-validation-for="Phn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dropdownn" class="control-label"></label>
+                <input asp-for="Dropdownn" class="form-control" />
+                <span asp-validation-for="Dropdownn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dropdown" class="control-label"></label>
+                <input asp-for="Dropdown" class="form-control" />
+                <span asp-validation-for="Dropdown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>

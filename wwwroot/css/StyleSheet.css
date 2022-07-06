@@ -381,3 +381,8 @@ form h4 {
     margin-top: 100px;
     transition: transform .4s;
 }
+.thanks {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
