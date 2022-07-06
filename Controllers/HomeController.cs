@@ -22,6 +22,7 @@ namespace Project_19101001_002.Controllers
         {
             return View();
         }
+      
         public IActionResult showdata(string firstname,string secondname,string email,string phn,string dropdown_2, string dropdown)
         {
             ViewBag.MessageF = "First-Name:" + firstname;
@@ -32,7 +33,7 @@ namespace Project_19101001_002.Controllers
             ViewBag.MessageSe = "Service selected:" + dropdown;
             ViewBag.MessageT = "Time:" + dropdown_2;
             ViewBag.MessageFinal = firstname + " " + secondname + " " + "booked an appointment" + " " + "for" + " " + dropdown+ " ." + "Your selected slot is" + " " + dropdown_2;
-         
+      
 
             return View();
         }
